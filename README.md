@@ -1,18 +1,29 @@
+# Fundraising Portal
 
-# fundraising_portal
+A simple Flutter app simulating a fundraising platform for interns.
 
-A new Flutter project.
+## 🔧 Features
 
-## Getting Started
+- Login/Sign-Up UI (no authentication)
+- Dashboard with:
+  - Intern name
+  - Referral code
+  - Total donations
+  - Rewards (static)
+- Leaderboard (mock top 5)
+- Announcements (static content)
 
-This project is a starting point for a Flutter application.
+## 🚀 Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK installed
+- Android Studio or VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
+### Installation
+
+```bash
+git clone https://github.com/Prxyankaz/fundraising-portal.git
+cd fundraising-portal
+flutter pub get
+flutter run
